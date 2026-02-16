@@ -57,11 +57,12 @@ Datasets from World Bank, World in Data, and others, report hundreds of factors 
 
 [Joining forces to face the challenges] 
 
-> *"Cooperation rather than competition to achieve common goals."*
+> *"Cooperation instead of competition when it makes sense."*
 > *- Warren Buffett* 
 
 ```python
 print("The most ambitious goals are worth the effort.")
+
 ```
 ---
 
