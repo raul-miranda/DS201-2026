@@ -69,10 +69,10 @@ print("The most ambitious goals are worth the effort.")
 ## 5. Reference and Footnote
 
 I used the following site as a markdown reference:
-[Markdown Guide](https://www.markdownguide.org) [^1]
+[Markdown Guide](https://www.markdownguide.org)[^1]
 
 
-[^1] Markdown code can be interpreted by many languages and is used for documentation.
+[^1]: Markdown code can be interpreted by many languages and is used for documentation.
 
 
 
