@@ -61,7 +61,8 @@ Datasets from World Bank, World in Data, and others, report hundreds of factors 
 > *- Warren Buffett* 
 
 ```python
-print("The most ambitious goals are worth the effort.")
+message = "The most ambitious goals are worth the effort."
+print(message)
 
 ```
 ---
