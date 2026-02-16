@@ -55,7 +55,7 @@ Datasets from World Bank, World in Data, and others, report hundreds of factors 
 
 ## 4. Image illustrating My Project 1, with a blockquote, and inline code
 
-![Joining forces to face the challenges] (istockphoto-2195914743-612x612.webp) 
+![Joining forces to face the challenges](https://github.com/raul-miranda/DS201-2026/blob/main/istockphoto-2195914743-612x612.webp)
 
 > *"Cooperation instead of competition when it makes sense."*
 > *- Warren Buffett* 
