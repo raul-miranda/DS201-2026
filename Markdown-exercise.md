@@ -61,14 +61,15 @@ Datasets from World Bank, World in Data, and others, report hundreds of factors 
 > *- Warren Buffett* 
 
 ```python
-print("The most ambitious goals are worth the effort."
+print("The most ambitious goals are worth the effort.")
 ```
 ---
 
 ## 5. Reference and Footnote
 
-I used the following site as a markdown [^1] reference:
-[Markdown Guide](https://www.markdownguide.org) 
+I used the following site as a markdown reference:
+[Markdown Guide](https://www.markdownguide.org) [^1]
+
 
 [^1] Markdown code can be interpreted by many languages and is used for documentation.
 
