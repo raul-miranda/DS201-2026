@@ -1,0 +1,64 @@
+Global Solar Power Tracker - February 2026,,,
+Copyright © Global Energy Monitor. Distributed under a Creative Commons Attribution 4.0 International License.,,,
+"Please note records with a “TZ ID” in the Other IDs (unit/phase) column were partially or fully sourced from the TransitionZero, Solar Asset Mapper, August 2025. 
+Copyright © TransitionZero, Solar Asset Mapper, August 2025. Distributed under a Creative Commons Attribution-Non-Commercial 4.0 International License (CC BY-NC 4.0).",,,
+"Contact: Kasandra O'Malia, Global Solar Power Tracker Project Manager, Global Energy Monitor - kasandra.omalia@globalenergymonitor.org",,,
+Methodology,,,
+,,,
+February 2026 Release Notes,,,
+This update covers research across the entire globe.,,,
+"Distributed (<1 MW) solar data, aggregated at the national level, has been included for the first time for 31 countries/areas.",,,
+All utility-scale (1 MW+) data have been combined into one tab.,,,
+"A new data field has been added to the utility-scale data to indicate when a project phase has associated storage, either planned or existing.",,,
+"Records with a WKSL ID in the Other IDs (unit/phase) column were partially or fully sourced from the wiki-solar.org April, 2023 proprietary dataset.",,,
+,,,
+Thresholds for Data Categories,,,
+Utility-scale,Greater than or equal to 1 MW,,
+Distributed,Less than 1 MW nominally. Refer to wiki pages for specific methodologies and definitions used for each country.,,
+,,,
+Definitions,,,
+Column,Full Name,Notes,
+Status,operating,Commercial operation date achieved.,
+Status,construction,Equipment installation has begun (not just clearing/roads).,
+Status,pre-construction,"Projects that are actively moving forward in seeking governmental approvals, land rights, or financing.",
+Status,announced,"Projects that been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase 2” at a location where “Phase 1” is currently under development, (2) Projects that are described in long-range company or governmental planning documents.",
+Status,shelved,"Suspension announced. The status is marked as ""shelved - inferred 2y"" if no updates have been published in 2 or more years.",
+Status,mothballed,Disused but not dismantled.,
+Status,retired,Dismantled.,
+Status,cancelled,"Cancellation announced. The status is marked as ""cancelled - inferred 4y"" if no updates have been publishe din 4 or more years.",
+,,,
+Columns,,,
+Column Name,Units,Definition,Notes
+Date Last Researched,yyyy/mm/dd,Date that this project was last researched by the researcher,
+Country/Area,n/a,Country or area the project is located in (Unabbreviated),"The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries."
+Project Name,n/a,Commonly used name,"Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken, or the name was generated based on project location."
+Phase Name,n/a,Common name of the project phase,"Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used."
+Project Name in Local Language / Script,n/a,Commonly used name in the locally used script,Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible.
+Other Name(s),n/a,"Alternative names, including the name in local script",
+Capacity (MW),Megawatt (MW),"Nameplate capacity, or best available data, of the phase in megawatts rounded to its nearest tenth.","Please refer to ""Thresholds for Data Categories"" section above."
+Capacity Rating,"MWac, MWp/dc, unknown","The reported capacity rating, unknown selected if not provided",Capacity may be reported as the DC / peak value the arrays could provide or as the AC value of what will be tied into the grid. This is often not specified and could be either value when reported as just 'MW'.
+Technology Type,"PV, Solar Thermal, Assumed PV",If the solar installation uses PV (Photovoltaic) technology to create a current or uses heat from the sun to run a turbine,"Projects for which no information could be found specifying the technology type are listed as ""Assumed PV"" because PV is by far the most common technology."
+Status,see above,see rows 20-27 above,
+Start year,yyyy,Year the project is or is expected to be commissioned,Latest date was taken when original data source provided a range; Start years not included for projects that are cancelled or shelved.
+Year,yyyy,Capacity value is accurate as of the end of this year,Specific to distributed solar tab.
+Retired year,yyyy,Year the plant is or is expected to be taken offline,
+Operator,n/a,The company that operates the project,Company that performs day-to-day operations and maintenance of the project.
+Operator Name in Local Language / Script,n/a,Company name that operates the project in the locally used script,Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible.
+Owner,n/a,The company that directly owns the plant,
+Owner Name in Local Language / Script,n/a,Company name that directly owns the project in the locally used script,Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible.
+Hydrogen,"True, blank",True if a project phase is dedicated for green hydrogen production,
+Associated Storage,"True, blank",True if a project phase has existing or planned co-located storage,
+Latitude,decimal degrees,"Latitude, assumed WGS84 (google maps), of the project phase",
+Longitude,decimal degrees,"Longitude, assumed WGS84 (google maps), of the project phase",
+Location accuracy,"approximate, exact","Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",Locations feature 4 decimal places for Latitude and Longitude fields.
+City,n/a,"City, town, village, or township (China) where project is located",
+"Local area (taluk, county)",n/a,"County, taluk, or district (China) where project is located",
+"Major area (prefecture, district)",n/a,"Prefecture, district, or municipality (China) where project is located",
+State/Province,n/a,Subnational unit where project is located,
+Subregion,n/a,Subregion location based on United Nations definition,
+Region,n/a,Region location based on United Nations definition,
+Other IDs (location),n/a,Location identifier from external datasets,"If there are multiple external datasets, entries are comma separated."
+Other IDs (unit/phase),n/a,Unit or Phase identifier from external datasets,"If there are multiple external datasets, entries are comma separated."
+GEM location ID,L1+11 digits,GEM generated ID unique for each project,"Previous GEM ID numbers have been preserved from releases prior to 2024. For example, a previous GEM ID of L812345 is now L100000812345."
+GEM phase ID,G1+11 digits,GEM generated ID unique for each phase,"Previous GEM ID numbers have been preserved from releases prior to 2024. For example, a previous GEM ID of G812345 is now G100000812345."
+Wiki URL,n/a,"URL of existing, footnoted factsheet GEM.wiki page",
